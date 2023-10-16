@@ -8,7 +8,7 @@ Design patterns are typical solutions to common problems in software design. Eac
 
 Design patterns can be classified into three categories:
 
-### Creational Pattern
+### Creational Patterns
 
 Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code. Some examples include the Singleton, Factory, and Builder patterns.
 
