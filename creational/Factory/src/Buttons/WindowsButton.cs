@@ -22,9 +22,7 @@ namespace src.Buttons
             ColumnCount = 1,
             Dock = DockStyle.Fill,
             AutoSize = true,
-            AutoSizeMode = AutoSizeMode.GrowAndShrink,})
-        {
-        }
+            AutoSizeMode = AutoSizeMode.GrowAndShrink,}) { }
 
         /// <summary>
         /// The WindowsButton constructor initializes a new instance of the

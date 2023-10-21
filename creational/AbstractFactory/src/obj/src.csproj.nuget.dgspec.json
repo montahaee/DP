@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\src.csproj": {}
+    "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\AbstractFactory\\src\\src.csproj": {}
   },
   "projects": {
-    "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\src.csproj": {
+    "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\AbstractFactory\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\src.csproj",
+        "projectUniqueName": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\AbstractFactory\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\src.csproj",
+        "projectPath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\AbstractFactory\\src\\src.csproj",
         "packagesPath": "C:\\Users\\montaha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\obj\\",
+        "outputPath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\AbstractFactory\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\montaha\\AppData\\Roaming\\NuGet\\NuGet.Config",

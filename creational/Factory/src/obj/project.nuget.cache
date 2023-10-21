@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "st16gFH1gQX+9pDiV5nbW4VIRbpdt1yBSPfseei7i2ZXCR5Lagsy7W5lhvrFoJA1mvfS0Sd+74huuIPiPOeygw==",
+  "dgSpecHash": "DjGxmYA/kx4NIJtB4QE8uYYbK33I609c4B0pLvVjD3vIaypxdsBh2QJgHuH81NV6JNJiZeuelFJ3LNlmx72cEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\montaha\\Documents\\current\\practical\\CS\\DP\\Factory\\src\\src.csproj",
+  "projectFilePath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\src.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
