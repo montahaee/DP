@@ -1,7 +1,7 @@
 ﻿using src.buttons;
 using src.checkboxes;
 
-namespace src.Factories
+namespace src.factories
 {
     /// <summary>
     /// The <see cref="WindowsGUI"/> class represents a concrete factory in the

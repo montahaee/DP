@@ -1,6 +1,5 @@
 ﻿using src.app;
-using src.checkboxes;
-using src.Factories;
+using src.factories;
 
 namespace src
 {
@@ -9,6 +8,8 @@ namespace src
     /// It uses the <see cref="FactoryApplication"/> class to create and
     /// paint GUI elements.
     /// FactoryApplication acts as the client in the Abstract Factory design pattern.
+    /// It picks the factory type and creates that in run time depending
+    /// enviroment variable.
     internal class Program
     {
 
@@ -24,20 +25,18 @@ namespace src
         /// </summary>
         private static FactoryApplication configureApplication()
         {
-            FactoryApplication application;
-            IGUI gUI;
             string osName = Environment.OSVersion.VersionString.ToLower();
-
             if (osName.Contains("mac"))
             {
-                gUI = new MacGUI();
-                application = new FactoryApplication(gUI);
+                return new FactoryApplication(new MacGUI());
+            } else if (osName.Contains("windows"))
+            {
+                return new FactoryApplication(new WindowsGUI());
             } else
             {
-                gUI = new WindowsGUI();
-                application = new FactoryApplication(gUI);
+                throw new NotSupportedException("The operating system is not supported.");
             }
-            return application;
+            
         }
     }
 }

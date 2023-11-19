@@ -2,7 +2,7 @@
 using src.checkboxes;
 
 
-namespace src.Factories
+namespace src.factories
 {
     /// <summary>
     /// The <see cref="IGUI"/> interface defines the contract for GUI factories.

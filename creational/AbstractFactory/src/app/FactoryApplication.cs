@@ -1,12 +1,12 @@
 ﻿using src.buttons;
 using src.checkboxes;
-using src.Factories;
+using src.factories;
 
 namespace src.app
 {
     /// <summary>
     /// FactoryApplication represents the application that creates
-    /// and paints GUI components.
+    /// and paints GUI components without knowledge about the concrete factory.
     /// </summary>
     internal class FactoryApplication
     {
