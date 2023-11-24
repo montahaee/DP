@@ -11,12 +11,12 @@ namespace src.Buttons
         /// The render method is responsible for rendering
         /// the button on the screen.
         /// </summary>
-        void render();
+        void Render();
 
         /// <summary>
         /// The onClick method is responsible for defining
         /// the behavior of the button when it is clicked.
         /// </summary>
-        void onClick();
+        void OnClick();
     }
 }

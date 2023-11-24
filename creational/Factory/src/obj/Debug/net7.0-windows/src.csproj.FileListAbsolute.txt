@@ -1,0 +1,15 @@
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\bin\Debug\net7.0-windows\src.exe
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\bin\Debug\net7.0-windows\src.deps.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\bin\Debug\net7.0-windows\src.runtimeconfig.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\bin\Debug\net7.0-windows\src.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\bin\Debug\net7.0-windows\src.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\src.csproj.AssemblyReference.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\src.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\src.AssemblyInfoInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\src.AssemblyInfo.cs
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\src.csproj.CoreCompileInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\src.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\refint\src.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\src.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\src.genruntimeconfig.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Factory\src\obj\Debug\net7.0-windows\ref\src.dll

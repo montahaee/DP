@@ -1,11 +1,11 @@
 ﻿using src.DialogFactory;
 namespace src
 {
-    class Program
+    internal static class Program
     {
-        private static Dialog? dialog; 
+        private static Dialog? _dialog; 
         public static void Main(string[] args) {
-            cofigure();
+            Cofigure();
             RunBusinessLogic();
         }
 
@@ -13,15 +13,15 @@ namespace src
         /// The configure method is responsible for configuring the application.
         /// It creates an appropriate dialog depending on the operating system.
         /// </summary>
-        private static void cofigure()
+        private static void Cofigure()
         {
             if (Environment.OSVersion.VersionString.Contains("Windows"))
             {
-                dialog = new WindowsDialog();
+                _dialog = new WindowsDialog();
             }
             else
             {
-                dialog = new HtmlDialog();
+                _dialog = new HtmlDialog();
             }
 
         }
@@ -31,7 +31,7 @@ namespace src
         /// running the business logic of the application.
         /// It renders the window of the dialog.
         /// </summary>
-        private static void RunBusinessLogic() => dialog?.renderWindow();
+        private static void RunBusinessLogic() => _dialog?.renderWindow();
     }
 }
 

@@ -9,13 +9,14 @@ namespace src
     /// paint GUI elements.
     /// FactoryApplication acts as the client in the Abstract Factory design pattern.
     /// It picks the factory type and creates that in run time depending
-    /// enviroment variable.
-    internal class Program
+    /// environment variable.
+    /// </summary>
+    internal static class Program
     {
 
         public static void Main(string[] args)
         {
-            FactoryApplication app = configureApplication();
+            FactoryApplication app = ConfigureApplication();
             app.paint();
         }
 
@@ -23,7 +24,7 @@ namespace src
         /// The configureApplication method creates a new FactoryApplication instance.
         /// It uses the OS name to determine which GUI to use (Mac or Windows).
         /// </summary>
-        private static FactoryApplication configureApplication()
+        private static FactoryApplication ConfigureApplication()
         {
             string osName = Environment.OSVersion.VersionString.ToLower();
             if (osName.Contains("mac"))

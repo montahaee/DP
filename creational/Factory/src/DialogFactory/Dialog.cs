@@ -16,7 +16,7 @@ namespace src.DialogFactory
         public void renderWindow()
         {
             IButton okButton = createButton();
-            okButton.render();
+            okButton.Render();
         }
 
         /// <summary>

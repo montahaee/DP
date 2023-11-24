@@ -1,0 +1,15 @@
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\bin\Debug\net7.0\Engine.exe
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\bin\Debug\net7.0\Engine.deps.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\bin\Debug\net7.0\Engine.runtimeconfig.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\bin\Debug\net7.0\Engine.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\bin\Debug\net7.0\Engine.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\Engine.csproj.AssemblyReference.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\Engine.AssemblyInfoInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\Engine.AssemblyInfo.cs
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\Engine.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\refint\Engine.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\Engine.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\Engine.genruntimeconfig.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\BilderDecorator\Engine\obj\Debug\net7.0\ref\Engine.dll

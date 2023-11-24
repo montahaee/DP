@@ -8,9 +8,9 @@ namespace src.Buttons
     /// </summary>
     internal class WindowsButton : IButton
     {
-        private Form form;
-        private Button button;
-        private Panel panel;
+        private readonly Form _form;
+        private readonly Button _button;
+        private readonly Panel _panel;
 
         /// <summary>
         /// The WindowsButton constructor initializes a new 
@@ -36,25 +36,25 @@ namespace src.Buttons
         /// instance of the WindowsButton class.</param>
         public WindowsButton(Form form, Button button, Panel panel)
         {
-            this.form = form;
-            this.button = button;
-            this.panel = panel;
+            this._form = form;
+            this._button = button;
+            this._panel = panel;
         }
 
         /// <summary>
         /// This method defines the behavior of the Windows button
         /// when it is clicked.
         /// </summary>
-        public void onClick()
+        public void OnClick()
         {
-            button.Text = "Exit";
-            button.Size = new Size(80, 25);
-            button.Anchor = AnchorStyles.None;
-            button.Location = new Point((panel.Width - button.Width) / 2,
-                (panel.Height - button.Height) / 2);
-            button.Click += (sender, e) =>
+            _button.Text = "Exit";
+            _button.Size = new Size(80, 25);
+            _button.Anchor = AnchorStyles.None;
+            _button.Location = new Point((_panel.Width - _button.Width) / 2,
+                (_panel.Height - _button.Height) / 2);
+            _button.Click += (sender, e) =>
             {
-                form.Visible = true;
+                _form.Visible = true;
                 Application.Exit();
             };
         }
@@ -62,9 +62,9 @@ namespace src.Buttons
         /// <summary>
         /// This method renders the button on the Windows screen.
         /// </summary>
-        public void render()
+        public void Render()
         {
-            form.FormClosing += (sender, e) => Application.Exit();
+            _form.FormClosing += (sender, e) => Application.Exit();
 
             Label label = new Label()
             {
@@ -74,15 +74,15 @@ namespace src.Buttons
                 TextAlign = ContentAlignment.MiddleCenter,
                 Dock = DockStyle.Fill,
             };
-            panel.Controls.Add(label);
-            onClick();
+            _panel.Controls.Add(label);
+            OnClick();
 
-            panel.Controls.Add(button);
+            _panel.Controls.Add(_button);
 
-            form.Controls.Add(panel);
-            form.Size = new Size(320, 200);
-            form.Visible = true;
-            Application.Run(form);
+            _form.Controls.Add(_panel);
+            _form.Size = new Size(320, 200);
+            _form.Visible = true;
+            Application.Run(_form);
 
         }
     }

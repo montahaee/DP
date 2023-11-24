@@ -8,12 +8,12 @@ namespace src.Buttons
     /// </summary>
     internal class HtmlButton : IButton
     {
-        public void onClick()
+        public void OnClick()
         {
-            Console.WriteLine("Click me! To heare 'Hello World!' from Button");
+            Console.WriteLine("Click me! To here 'Hello World!' from Button");
         }
 
-        public void render()
+        public void Render()
         {
             Console.WriteLine("<button> Click me!/button>");
         }
