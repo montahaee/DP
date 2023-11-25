@@ -55,7 +55,7 @@ internal class Manual
                $"Count of _seats: {Seats}\n" +
                $"_engine: volume - {Engine.Volume}; mileage - {Engine.Mileage(1000.0)}\n" +
                $"_transmission: {Transmission}\n" +
-               $"Trip Computer: {"Functional"}\n" +
-               $"GPS Navigator: {"Functional"}\n";
+               "Trip Computer: Functional\n" +
+               "GPS Navigator: Functional\n";
     }
 }
