@@ -1,0 +1,15 @@
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\bin\Debug\net7.0-windows\PrototypeCore.exe
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\bin\Debug\net7.0-windows\PrototypeCore.deps.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\bin\Debug\net7.0-windows\PrototypeCore.runtimeconfig.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\bin\Debug\net7.0-windows\PrototypeCore.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\bin\Debug\net7.0-windows\PrototypeCore.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\PrototypeCore.csproj.AssemblyReference.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\PrototypeCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\PrototypeCore.AssemblyInfoInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\PrototypeCore.AssemblyInfo.cs
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\PrototypeCore.csproj.CoreCompileInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\PrototypeCore.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\refint\PrototypeCore.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\PrototypeCore.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\PrototypeCore.genruntimeconfig.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Prototype\PrototypeCore\obj\Debug\net7.0-windows\ref\PrototypeCore.dll

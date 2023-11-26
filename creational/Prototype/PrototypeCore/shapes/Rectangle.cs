@@ -49,7 +49,7 @@ public class Rectangle : Shape
         return HashCode.Combine(base.GetHashCode(), Width, Height);
     }
 
-    protected override void Paint(Graphics graphics)
+    internal override void Paint(Graphics graphics)
     {
         base.Paint(graphics);
         Pen pen = new Pen(Color);
