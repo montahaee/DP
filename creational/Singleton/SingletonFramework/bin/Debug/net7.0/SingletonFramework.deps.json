@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SingletonFramework/1.0.0": {
+        "runtime": {
+          "SingletonFramework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SingletonFramework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

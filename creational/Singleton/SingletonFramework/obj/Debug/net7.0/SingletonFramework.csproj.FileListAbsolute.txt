@@ -1,0 +1,15 @@
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\bin\Debug\net7.0\SingletonFramework.exe
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\bin\Debug\net7.0\SingletonFramework.deps.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\bin\Debug\net7.0\SingletonFramework.runtimeconfig.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\bin\Debug\net7.0\SingletonFramework.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\bin\Debug\net7.0\SingletonFramework.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\SingletonFramework.csproj.AssemblyReference.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\SingletonFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\SingletonFramework.AssemblyInfoInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\SingletonFramework.AssemblyInfo.cs
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\SingletonFramework.csproj.CoreCompileInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\SingletonFramework.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\refint\SingletonFramework.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\SingletonFramework.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\SingletonFramework.genruntimeconfig.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\creational\Singleton\SingletonFramework\obj\Debug\net7.0\ref\SingletonFramework.dll

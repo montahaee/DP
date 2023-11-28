@@ -60,20 +60,20 @@ internal static class Program
     /// <summary>
     /// This method compares two lists of shapes to check if they are identical.
     /// </summary>
-    /// <param name="shapes"></param>
-    /// <param name="shapesCopy"></param>
-    private static void CloneAndCompare(List<Shape> shapes, List<Shape> shapesCopy)
+    /// <param name="originShapes">The first shape to cloning.</param>
+    /// <param name="shapes">The second shape to compare with the first one </param>
+    private static void CloneAndCompare(List<Shape> originShapes, List<Shape> shapes)
     {
-        for (int i = 0; i < shapes.Count; i++) {
-            if (!ReferenceEquals(shapes[i], shapesCopy[i]))
+        for (int i = 0; i < originShapes.Count; i++) {
+            if (!ReferenceEquals(originShapes[i], shapes[i]))
             {
                 Console.WriteLine($"{i}: Shapes are different objects (yah!)");
-                Console.WriteLine(shapes[i].Equals(shapesCopy[i])
+                Console.WriteLine(originShapes[i].Equals(shapes[i])
                     ? $"{i}: And they are identical (yah!)"
                     : $"{i}: But they are not identical (boo!)");
             } else {
                 Console.WriteLine($"{i}: Shape objects are the same (boo!)");
-                shapes[i].Move(1, 1);
+                originShapes[i].Move(1, 1);
             }
         }
     }
