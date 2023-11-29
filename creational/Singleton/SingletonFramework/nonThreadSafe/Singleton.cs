@@ -1,10 +1,10 @@
 ﻿
 namespace SingletonFramework.nonThreadSafe;
 
-public class Singleton
+public sealed class Singleton
 {
     private static Singleton? _instance;
-    internal string Value;
+    internal readonly string Value;
 
     private Singleton(string value)
     {
