@@ -17,7 +17,7 @@ namespace src
         public static void Main(string[] args)
         {
             FactoryApplication app = ConfigureApplication();
-            app.paint();
+            app.Paint();
         }
 
         /// <summary>
@@ -29,10 +29,10 @@ namespace src
             string osName = Environment.OSVersion.VersionString.ToLower();
             if (osName.Contains("mac"))
             {
-                return new FactoryApplication(new MacGUI());
+                return new FactoryApplication(new MacGui());
             } else if (osName.Contains("windows"))
             {
-                return new FactoryApplication(new WindowsGUI());
+                return new FactoryApplication(new WindowsGui());
             } else
             {
                 throw new NotSupportedException("The operating system is not supported.");

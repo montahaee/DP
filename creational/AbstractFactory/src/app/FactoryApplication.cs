@@ -11,27 +11,27 @@ namespace src.app
     internal class FactoryApplication
     {
         // Stores a references to a button and checkbox interface.
-        private IButton button;
-        private ICheckbox checkbox;
+        private readonly IButton _button;
+        private readonly ICheckbox _checkbox;
 
         /// <summary>
         /// Initializes a new instance of the FactoryApplication class.
         /// </summary>
         /// <param name="gui">The GUI interface responsible for creating
         /// GUI components.</param>
-        public FactoryApplication(IGUI gui) { 
-            button = gui.createButton();
-            checkbox = gui.createCheckbox();
+        public FactoryApplication(IGui gui) { 
+            _button = gui.CreateButton();
+            _checkbox = gui.CreateCheckbox();
         }
 
 
         /// <summary>
         /// Paints the GUI components created by the application.
         /// </summary>
-        public void paint()
+        public void Paint()
         {
-            button.Paint();
-            checkbox.Paint();
+            _button.Paint();
+            _checkbox.Paint();
         }
     }
 }

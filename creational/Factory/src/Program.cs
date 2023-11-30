@@ -5,7 +5,7 @@ namespace src
     {
         private static Dialog? _dialog; 
         public static void Main(string[] args) {
-            Cofigure();
+            Configure();
             RunBusinessLogic();
         }
 
@@ -13,7 +13,7 @@ namespace src
         /// The configure method is responsible for configuring the application.
         /// It creates an appropriate dialog depending on the operating system.
         /// </summary>
-        private static void Cofigure()
+        private static void Configure()
         {
             if (Environment.OSVersion.VersionString.Contains("Windows"))
             {
@@ -31,7 +31,7 @@ namespace src
         /// running the business logic of the application.
         /// It renders the window of the dialog.
         /// </summary>
-        private static void RunBusinessLogic() => _dialog?.renderWindow();
+        private static void RunBusinessLogic() => _dialog?.RenderWindow();
     }
 }
 

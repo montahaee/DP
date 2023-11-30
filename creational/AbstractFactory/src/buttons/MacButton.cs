@@ -7,6 +7,7 @@ namespace src.buttons
     /// The <see cref="MacButton"/> class represents a concrete product
     /// in the abstract factory pattern. It inherits from the <see cref="OSControl"/>
     /// class and implements the <see cref="IButton"/> interface.
+    /// </summary>
     internal class MacButton :  OSControl,IButton
     {
         public MacButton() : base("MacOk", OnButtonClick) {
@@ -19,19 +20,19 @@ namespace src.buttons
         private static void OnButtonClick(object? sender, EventArgs e) {
             if (sender is Button) {
                 MessageBox.Show("Mac Button Clicked!");
-            } else if (e is MouseEventArgs macMous)
+            } else if (e is MouseEventArgs macMouse)
             {
-                bool maused = macMous.Button == MouseButtons.Left;
-                maused |= macMous.Button == MouseButtons.Right;
-                maused |= macMous.Button == MouseButtons.Middle;
+                bool moused = macMouse.Button == MouseButtons.Left;
+                moused |= macMouse.Button == MouseButtons.Right;
+                moused |= macMouse.Button == MouseButtons.Middle;
 
-                if (maused)
+                if (moused)
                 {
                     MessageBox.Show("Mac Mouse button clicked!");
                 }
             } else
             {
-                MessageBox.Show("Uknown Mac Button Clicked!");
+                MessageBox.Show("Unknown Mac Button Clicked!");
             }
         }
 

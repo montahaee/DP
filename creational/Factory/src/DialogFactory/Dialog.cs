@@ -13,9 +13,9 @@ namespace src.DialogFactory
         /// rendering the window on the screen.
         /// It uses the createButton factory method to create a button.
         /// </summary>
-        public void renderWindow()
+        public void RenderWindow()
         {
-            IButton okButton = createButton();
+            IButton okButton = CreateButton();
             okButton.Render();
         }
 
@@ -24,6 +24,6 @@ namespace src.DialogFactory
         /// It must be implemented by all concrete creators.
         /// </summary>
         /// <returns>A button that implements the IButton interface.</returns>
-        public abstract IButton createButton();
+        protected abstract IButton CreateButton();
     }
 }

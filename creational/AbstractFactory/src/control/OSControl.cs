@@ -1,4 +1,6 @@
 ﻿
+using src.checkboxes;
+
 namespace src.control
 {
 
@@ -6,7 +8,7 @@ namespace src.control
     /// The <see cref="OSControl"/> class is an abstract class
     /// that is inherited by concrete product classes like <see 
     /// cref=" src.buttons.WindowsButton"/>,<see cref="buttons.MacButton"/>,
-    /// <see cref="checkboxes.WindowsChekcbox"/>, and <see cref="checkboxes.MacCheckBox"/>.
+    /// <see cref="checkboxes.WindowsChekcbox"/>, and <see cref="MacCheckbox"/>.
     /// It provides a base implementation for creating and initializing controls.
     /// </summary>
     internal abstract class OSControl

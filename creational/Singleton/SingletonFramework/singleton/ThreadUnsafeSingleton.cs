@@ -1,12 +1,11 @@
-﻿
-namespace SingletonFramework.nonThreadSafe;
+﻿namespace SingletonFramework.singleton;
 
-public sealed class Singleton
+public class ThreadUnsafeSingleton : ISingleton
 {
-    private static Singleton? _instance;
+    private static ThreadUnsafeSingleton? _instance;
     internal readonly string Value;
 
-    private Singleton(string value)
+    private ThreadUnsafeSingleton(string value)
     {
         // To lazy initialization
         try
@@ -22,8 +21,9 @@ public sealed class Singleton
         this.Value = value;
     }
 
-    public static Singleton GetInstance(string value)
+
+    public static ISingleton GetInstance(string value)
     {
-        return _instance ??= new Singleton(value);
+        return _instance ??= new ThreadUnsafeSingleton(value);
     }
 }

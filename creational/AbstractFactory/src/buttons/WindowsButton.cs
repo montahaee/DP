@@ -30,13 +30,13 @@ namespace src.buttons
             if (sender is Button button)
             {
                 MessageBox.Show("${Win Button} Clicked!");
-            } else if (e is MouseEventArgs winMaus)
+            } else if (e is MouseEventArgs winMouse)
             {
-                bool maused = winMaus.Button == MouseButtons.Left;
-                maused |= winMaus.Button == MouseButtons.Right;
-                maused |= winMaus.Button == MouseButtons.Middle;
+                bool moused = winMouse.Button == MouseButtons.Left;
+                moused |= winMouse.Button == MouseButtons.Right;
+                moused |= winMouse.Button == MouseButtons.Middle;
 
-                if (maused)
+                if (moused)
                 {
                     MessageBox.Show("Win Mouse button clicked!");
                 }

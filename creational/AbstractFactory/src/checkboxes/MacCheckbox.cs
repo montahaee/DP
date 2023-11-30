@@ -1,17 +1,22 @@
 ﻿using src.control;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace src.checkboxes
 {
-    internal class WindowsChekcbox : OSControl, ICheckbox
+    internal class MacCheckbox : OSControl, ICheckbox
     {
-        public WindowsChekcbox() : base("WinCheckbox", OnCheckboxClick)
+        public MacCheckbox() : 
+            base("Mac Checkbox" , OnChekboxClick)
         {
         }
 
-        /// <summary>
-        /// Handles the checkbox click event.
-        /// </summary>
-        private static void OnCheckboxClick(object? sender, EventArgs e)
+
+
+        private static void OnChekboxClick(object? sender, EventArgs e)
         {
             if (sender is CheckBox checkBox)
             {
@@ -23,29 +28,23 @@ namespace src.checkboxes
                 }
                 else if (e is KeyEventArgs key)
                 {
-                    MessageBox.Show($"Windows Checkbox {(checkBox.Checked ? "Checked" : "Unchecked")}");
+                    MessageBox.Show($"Mac Checkbox {(checkBox.Checked ? "Checked" : "Unchecked")}");
                     MessageBox.Show($"Key Code: {key.KeyCode}");
                 }
             }
             else
             {
-                MessageBox.Show("Unknown Win Checkbox Clicked!");
+                MessageBox.Show("Unknown Mac Checkbox Clicked!");
             }
-
         }
 
-        /// <summary>
-        /// Creates a new instance of a checkbox control.
-        /// </summary>
         protected override Control CreateControlInstance()
         {
-            return new CheckBox()
+            return new CheckBox
             {
-                Size = new Size(150, 30),
-                ForeColor = Color.Black,
+                Size = new Size(225, 45),
+                ForeColor = Color.White
             };
         }
     }
 }
-
-

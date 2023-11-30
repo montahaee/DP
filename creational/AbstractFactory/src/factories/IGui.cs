@@ -1,22 +1,21 @@
 ﻿using src.buttons;
 using src.checkboxes;
 
-
 namespace src.factories
 {
     /// <summary>
-    /// The <see cref="IGUI"/> interface defines the contract for GUI factories.
+    /// The <see cref="IGui"/> interface defines the contract for GUI factories.
     /// </summary>
-    internal interface IGUI
+    internal interface IGui
     {
         /// <summary>
         /// Creates a new button.
         /// </summary>
-        IButton createButton();
+        IButton CreateButton();
 
         /// <summary>
         /// Creates a new checkbox.
         /// </summary>
-        ICheckbox createCheckbox();
+        ICheckbox CreateCheckbox();
     }
 }

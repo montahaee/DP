@@ -16,7 +16,7 @@ namespace src.DialogFactory
         /// that creates a WindowsButton.
         /// </summary>
         /// <returns>A new instance of the <see cref="src.Buttons.WindowsButton"/> class.</returns>
-        public override IButton createButton()
+        protected override IButton CreateButton()
         {
             return new WindowsButton();
         }

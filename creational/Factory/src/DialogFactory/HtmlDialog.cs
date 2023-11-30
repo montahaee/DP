@@ -16,7 +16,7 @@ namespace src.DialogFactory
         /// </summary>
         /// <returns>A new instance of the <see cref="src.Buttons.HtmlButton"/>
         /// class.</returns>
-        public override IButton createButton()
+        protected override IButton CreateButton()
         {
             return new HtmlButton();
         }
