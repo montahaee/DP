@@ -1,7 +1,6 @@
-﻿using src.Buttons;
+﻿using FactoryEngine.buttons;
 
-
-namespace src.DialogFactory
+namespace FactoryEngine.dialogFactory
 {
     /// <summary>
     /// The HtmlDialog class represents a concrete creator
@@ -14,7 +13,7 @@ namespace src.DialogFactory
         /// <summary>
         /// The createButton method is a factory method that creates an HtmlButton.
         /// </summary>
-        /// <returns>A new instance of the <see cref="src.Buttons.HtmlButton"/>
+        /// <returns>A new instance of the <see cref="HtmlButton"/>
         /// class.</returns>
         protected override IButton CreateButton()
         {

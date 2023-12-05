@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\src.csproj",
-      "projectName": "src",
-      "projectPath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\src.csproj",
+      "projectUniqueName": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\FactoryEngine\\FactoryEngine.csproj",
+      "projectName": "FactoryEngine",
+      "projectPath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\FactoryEngine\\FactoryEngine.csproj",
       "packagesPath": "C:\\Users\\montaha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\src\\obj\\",
+      "outputPath": "C:\\Users\\montaha\\Documents\\transmission\\remot\\CSh\\DP\\creational\\Factory\\FactoryEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\montaha\\AppData\\Roaming\\NuGet\\NuGet.Config"

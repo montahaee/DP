@@ -4,4 +4,9 @@ public interface ISingleton
 {
     static abstract ISingleton GetInstance(string value);
     string Value();
+
+    static void ResetInstance()
+    {
+        
+    }
 }

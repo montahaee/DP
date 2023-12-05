@@ -1,7 +1,6 @@
-﻿using src.Buttons;
+﻿using FactoryEngine.buttons;
 
-
-namespace src.DialogFactory
+namespace FactoryEngine.dialogFactory
 {
     /// <summary>
     /// The WindowsDialog class represents a concrete
@@ -15,7 +14,7 @@ namespace src.DialogFactory
         /// The createButton method is a factory method
         /// that creates a WindowsButton.
         /// </summary>
-        /// <returns>A new instance of the <see cref="src.Buttons.WindowsButton"/> class.</returns>
+        /// <returns>A new instance of the <see cref="WindowsButton"/> class.</returns>
         protected override IButton CreateButton()
         {
             return new WindowsButton();

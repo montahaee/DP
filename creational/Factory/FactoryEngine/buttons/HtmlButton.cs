@@ -1,6 +1,6 @@
 ﻿
 
-namespace src.Buttons
+namespace FactoryEngine.buttons
 {
     /// <summary>
     /// The HtmlButton class represents another concrete product in the factory pattern.

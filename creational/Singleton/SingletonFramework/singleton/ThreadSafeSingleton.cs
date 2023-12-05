@@ -1,13 +1,13 @@
 ﻿namespace SingletonFramework.singleton;
 
-public class ThreadsafeSingleton : ISingleton
+public class ThreadSafeSingleton : ISingleton
 {
-    private static volatile ThreadsafeSingleton? _instance;
+    private static volatile ThreadSafeSingleton? _instance;
     private static readonly object SyncRoot = new object();
-    
-    internal string Value { get; private set; }
 
-    private ThreadsafeSingleton(string value)
+    private string Value { get; set; }
+
+    private ThreadSafeSingleton(string value)
     {
         this.Value = value;
     }
@@ -23,9 +23,14 @@ public class ThreadsafeSingleton : ISingleton
                  * created, even if multiple threads call the function at the same time.
                  */
                 Interlocked.CompareExchange(ref _instance,
-                    new ThreadsafeSingleton(value), null);
+                    new ThreadSafeSingleton(value), null);
             }
         }
         return _instance;
+    }
+
+    string ISingleton.Value()
+    {
+        return this.Value;
     }
 }

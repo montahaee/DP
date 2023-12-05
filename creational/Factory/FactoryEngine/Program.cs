@@ -1,5 +1,6 @@
-﻿using src.DialogFactory;
-namespace src
+﻿using FactoryEngine.dialogFactory;
+
+namespace FactoryEngine
 {
     internal static class Program
     {

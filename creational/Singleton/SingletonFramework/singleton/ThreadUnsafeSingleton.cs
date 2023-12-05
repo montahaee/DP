@@ -3,14 +3,14 @@
 public class ThreadUnsafeSingleton : ISingleton
 {
     private static ThreadUnsafeSingleton? _instance;
-    internal readonly string Value;
+    private readonly string _value;
 
     private ThreadUnsafeSingleton(string value)
     {
         // To lazy initialization
         try
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(2023);
         }
         catch (ThreadInterruptedException e)
         {
@@ -18,12 +18,16 @@ public class ThreadUnsafeSingleton : ISingleton
             throw;
         }
 
-        this.Value = value;
+        this._value = value;
     }
-
-
+    
     public static ISingleton GetInstance(string value)
     {
         return _instance ??= new ThreadUnsafeSingleton(value);
+    }
+
+    public string Value()
+    {
+        return this._value;
     }
 }

@@ -2,17 +2,27 @@
 
 namespace SingletonFramework.factories;
 
-public class MultiThreadDisplay : Display
+internal class MultiThreadDisplay : Display
 {
-    
-    public ISingleton CreateThreadsafeSingleton(string value)
+    internal override ISingleton CreateThreadSafeSingleton(string value)
     {
-        
-        throw new NotImplementedException();
+        return ThreadSafeSingleton.GetInstance(value);
     }
 
-    public ISingleton CreateThreadUnsafeSingleton(string value)
+    internal override ISingleton CreateThreadUnsafeSingleton(string value)
     {
-        throw new NotImplementedException();
+        return ThreadUnsafeSingleton.GetInstance(value);
     }
+    
+    internal void ThreadSafe(string value)
+    { 
+        Task.Run(() => TestSingleton<ThreadSafeSingleton>(value));
+    }
+    
+    
+    private static void ThreadUnsafe(string value)
+    {
+        Task.Run(() => TestSingleton<ThreadUnsafeSingleton>(value));
+    }
+
 }

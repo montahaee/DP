@@ -4,7 +4,8 @@ using src.checkboxes;
 namespace src.factories
 {
     /// <summary>
-    /// The <see cref="IGui"/> interface defines the contract for GUI factories.
+    /// The <see cref="IGui"/> interface defines the contract
+    /// for GUI factories.
     /// </summary>
     internal interface IGui
     {

@@ -3,30 +3,25 @@
 namespace SingletonFramework.factories;
 
 // public class SingleThreadDisplay : Display1
-public class SingleThreadDisplay : Display
+internal class SingleThreadDisplay : Display
 {
-    // public override void Print(string value)
-    // {
-    //     base.Print(value);
-    //     Con
-    // }
-    protected override ISingleton CreateThreadsafeSingleton(string value)
+    internal override ISingleton CreateThreadSafeSingleton(string value)
     {
-        return ThreadsafeSingleton.GetInstance(value);
+        return ThreadSafeSingleton.GetInstance(value);
     }
 
-    protected override ISingleton CreateThreadUnsafeSingleton(string value)
+    internal override ISingleton CreateThreadUnsafeSingleton(string value)
     {
-        var t = new ThreadsafeSingleton(value);
         return ThreadUnsafeSingleton.GetInstance(value);
     }
 
-    protected override void TestSingleton(string value)
+    internal void ThreadSafe(string value)
     {
-        base.TestSingleton(value);
-        switch (this.CreateThreadsafeSingleton(value))
-        {
-            
-        }
+        TestSingleton<ThreadSafeSingleton>(value);
+    } 
+    
+    internal void ThreadUnsafe(string value)
+    {
+        TestSingleton<ThreadUnsafeSingleton>(value);
     }
 }

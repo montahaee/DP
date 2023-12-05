@@ -1,5 +1,5 @@
 ﻿
-namespace src.Buttons
+namespace FactoryEngine.buttons
 {
     /// <summary>
     /// The IButton interface represents a product in the factory pattern.

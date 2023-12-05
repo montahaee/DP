@@ -1,22 +1,17 @@
 ﻿using src.control;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace src.checkboxes
 {
     internal class MacCheckbox : OSControl, ICheckbox
     {
         public MacCheckbox() : 
-            base("Mac Checkbox" , OnChekboxClick)
+            base("Mac Checkbox" , OnCheckboxClick)
         {
         }
 
 
 
-        private static void OnChekboxClick(object? sender, EventArgs e)
+        private static void OnCheckboxClick(object? sender, EventArgs e)
         {
             if (sender is CheckBox checkBox)
             {

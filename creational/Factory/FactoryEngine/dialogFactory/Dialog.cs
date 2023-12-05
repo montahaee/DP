@@ -1,6 +1,6 @@
-﻿using src.Buttons;
+﻿using FactoryEngine.buttons;
 
-namespace src.DialogFactory
+namespace FactoryEngine.dialogFactory
 {
     /// <summary>
     /// The Dialog abstract class represents a creator in the factory method pattern.
