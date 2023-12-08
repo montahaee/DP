@@ -3,7 +3,7 @@
 namespace FactoryEngine.dialogFactory
 {
     /// <summary>
-    /// The Dialog abstract class represents a creator in the factory method pattern.
+    /// The abstract class Dialog represents a creator in the factory method pattern.
     /// It declares the factory method that all concrete creators must implement.
     /// </summary>
     internal abstract class Dialog

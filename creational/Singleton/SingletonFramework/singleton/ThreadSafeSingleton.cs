@@ -1,5 +1,9 @@
 ﻿namespace SingletonFramework.singleton;
 
+/// <summary>
+/// The ThreadSafeSingleton class represents a concrete product in the factory pattern.
+/// It also implements methods declared in the <see cref="ISingleton"/> interface.
+/// </summary>
 public class ThreadSafeSingleton : ISingleton
 {
     private static volatile ThreadSafeSingleton? _instance;
@@ -30,7 +34,12 @@ public class ThreadSafeSingleton : ISingleton
     }
 
     string ISingleton.Value()
-    {
+    { 
         return this.Value;
+    }
+    
+    public static void ResetInstance()
+    {
+        _instance = null;
     }
 }

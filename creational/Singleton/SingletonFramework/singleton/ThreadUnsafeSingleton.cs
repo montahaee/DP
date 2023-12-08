@@ -1,5 +1,9 @@
 ﻿namespace SingletonFramework.singleton;
 
+/// <summary>
+/// The ThreadUnsafeSingleton class represents another concrete product in the factory
+/// pattern. It also implements methods declared in the <see cref="ISingleton"/> interface.
+/// </summary>
 public class ThreadUnsafeSingleton : ISingleton
 {
     private static ThreadUnsafeSingleton? _instance;
@@ -29,5 +33,10 @@ public class ThreadUnsafeSingleton : ISingleton
     public string Value()
     {
         return this._value;
+    }
+
+    public static void ResetInstance()
+    {
+        _instance = null;
     }
 }

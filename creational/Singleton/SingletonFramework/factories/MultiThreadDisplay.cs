@@ -2,6 +2,11 @@
 
 namespace SingletonFramework.factories;
 
+/// <summary>
+/// The MultiThreadDisplay class represents a concrete
+/// creator in the factory method pattern.
+/// It extends the <see cref="Display"/> abstract class
+/// </summary>
 internal class MultiThreadDisplay : Display
 {
     internal override ISingleton CreateThreadSafeSingleton(string value)

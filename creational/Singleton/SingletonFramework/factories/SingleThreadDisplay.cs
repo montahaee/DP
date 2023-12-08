@@ -2,7 +2,11 @@
 
 namespace SingletonFramework.factories;
 
-// public class SingleThreadDisplay : Display1
+/// <summary>
+/// The SingleThreadDisplay class represents another concrete
+/// creator in the factory method pattern.
+/// It extends the <see cref="Display"/> abstract class
+/// </summary>
 internal class SingleThreadDisplay : Display
 {
     internal override ISingleton CreateThreadSafeSingleton(string value)
