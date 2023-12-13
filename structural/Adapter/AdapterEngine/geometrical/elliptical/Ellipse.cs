@@ -5,8 +5,8 @@ internal class Ellipse : GeometricObject
     /**
      * Notice
      */
-    private double _width;
-    private double _height;
+    private readonly double _width;
+    private readonly double _height;
 
     protected Ellipse()
     {
@@ -18,17 +18,9 @@ internal class Ellipse : GeometricObject
         _height = height;
     }
 
-    public double Width
-    {
-        get => _width;
-        set => _width = value;
-    }
+    public double Width => _width;
 
-    public double Height
-    {
-        get => _height;
-        set => _height = value;
-    }
+    public double Height => _height;
 
     public override double GetArea()
     {
