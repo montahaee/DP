@@ -6,7 +6,7 @@ internal class Square : Rectangle
 {
     
 
-    public Square(float width) : base(width, width)
+    public Square(double width) : base(width, width)
     {
         
     }

@@ -1,0 +1,15 @@
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\bin\Debug\net7.0-windows\AdapterEngine.exe
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\bin\Debug\net7.0-windows\AdapterEngine.deps.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\bin\Debug\net7.0-windows\AdapterEngine.runtimeconfig.json
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\bin\Debug\net7.0-windows\AdapterEngine.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\bin\Debug\net7.0-windows\AdapterEngine.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\AdapterEngine.csproj.AssemblyReference.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\AdapterEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\AdapterEngine.AssemblyInfoInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\AdapterEngine.AssemblyInfo.cs
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\AdapterEngine.csproj.CoreCompileInputs.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\AdapterEngine.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\refint\AdapterEngine.dll
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\AdapterEngine.pdb
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\AdapterEngine.genruntimeconfig.cache
+C:\Users\montaha\Documents\transmission\remot\CSh\DP\structural\Adapter\AdapterEngine\obj\Debug\net7.0-windows\ref\AdapterEngine.dll

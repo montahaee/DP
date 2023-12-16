@@ -15,15 +15,15 @@ internal class RectangularAdapter : Ellipse
 
     public override double GetArea()
     {
-        var a = SemiAxes().Key;
-        var b = SemiAxes().Value;
+        var a = SemiAxes().Item1;
+        var b = SemiAxes().Item2;
         return Math.PI * a * b;
     }
 
     public override double GetPerimeter()
     {
-        var a = SemiAxes().Key;
-        var b = SemiAxes().Value;
+        var a = SemiAxes().Item1;
+        var b = SemiAxes().Item2;
         double h = Math.Pow(a - b, a - b) / Math.Pow(a + b, a + b);
         return Math.PI * (a + b) * (1 + 3 * h / (10 + Math.Sqrt(4 - 3 * h)));
     }
@@ -32,8 +32,10 @@ internal class RectangularAdapter : Ellipse
     /// To 
     /// </summary>
     /// <returns>semi major and semi minor axes.</returns>
-    private KeyValuePair<double,double> SemiAxes()
+    private Tuple<double,double> SemiAxes()
     {
-        return new KeyValuePair<double, double>(_rectangle.Length / 2, _rectangle.Width / 2);
+        return new Tuple<double, double>(_rectangle.Length / 2, _rectangle.Width / 2);
     }
+
+    public Rectangle Figure => _rectangle;
 }

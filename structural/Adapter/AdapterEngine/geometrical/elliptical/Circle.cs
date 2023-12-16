@@ -8,7 +8,7 @@ internal class Circle : Ellipse
     {
     }
     
-    public Circle(double radius) : base(radius, radius)
+    public Circle(double radius) : base(2*radius, 2*radius)
     {
         Radius = radius;
     }

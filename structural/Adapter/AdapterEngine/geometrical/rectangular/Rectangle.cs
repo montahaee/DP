@@ -5,7 +5,7 @@ internal class Rectangle : GeometricObject
     private double _width;
     private double _length;
 
-    protected Rectangle(double width, double length)
+    public Rectangle(double width, double length)
     {
         _width = width;
         _length = length;
@@ -32,20 +32,4 @@ internal class Rectangle : GeometricObject
     {
         return 2 * (_length + _width);
     }
-
-    public void Show()
-    {
-        Form form = new Form();
-        form.Paint += new PaintEventHandler(DrawGeometricObject!);
-        Application.Run(form);
-    }
-
-    private void DrawGeometricObject(Object sender, PaintEventArgs e)
-    {
-        Graphics g = e.Graphics;
-        using Pen pen = new Pen(Color.Black);
-        g.DrawRectangle(pen,0, 0,(float)_width, (float)_length);
-    }
-    
-    
 }
