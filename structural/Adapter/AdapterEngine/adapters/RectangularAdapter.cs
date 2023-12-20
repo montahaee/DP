@@ -4,6 +4,11 @@ using Rectangle = AdapterEngine.geometrical.rectangular.Rectangle;
 
 namespace AdapterEngine.adapters;
 
+/// <summary>
+/// Class representing an adapter for a <see cref="Rectangle"/> to be used as an
+/// <see cref="Ellipse"/>. This class lets you fit a <see cref="Rectangle"/> into <see cref="RotatedEllipse"/>.
+/// It extends <see cref="Ellipse"/> to let adapter object act as ellipse.
+/// </summary>
 internal class RectangularAdapter : Ellipse
 {
     private readonly Rectangle _rectangle;
@@ -29,7 +34,7 @@ internal class RectangularAdapter : Ellipse
     }
 
     /// <summary>
-    /// To 
+    /// Method to calculate the semi-major and semi-minor axes of the adapted rectangle.
     /// </summary>
     /// <returns>semi major and semi minor axes.</returns>
     private Tuple<double,double> SemiAxes()

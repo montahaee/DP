@@ -7,10 +7,14 @@ using Rectangle = AdapterEngine.geometrical.rectangular.Rectangle;
 
 namespace AdapterEngine
 {
+    /// <summary>
+    /// This class is to demonstrate the functionality of the all program.
+    /// </summary>
     internal static class Program
     {
         public static void Main(string[] args)
         {
+            // Create a list to hold geometric objects
             List<GeometricObject> geometricObjects = new List<GeometricObject>();
             Square square = new Square(3.75);
             geometricObjects.Add(square);
@@ -24,6 +28,7 @@ namespace AdapterEngine
             Circle circle = new Circle(2.8);
             geometricObjects.Add(circle);
             
+            // Create a DiagramApplication with the list of geometric and run it.
             DiagramApplication app = new DiagramApplication(geometricObjects);
             Application.Run(app);
         }
