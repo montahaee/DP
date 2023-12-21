@@ -8,7 +8,7 @@ public interface IDevice
 
     void Disabled();
 
-    int Volume { get; set; }
+    uint Volume { get; set; }
 
     uint Chanel { get; set; }
     
