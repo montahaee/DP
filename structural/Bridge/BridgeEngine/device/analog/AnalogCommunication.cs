@@ -1,12 +1,20 @@
-﻿using System;
-
-namespace BridgeEngine.device.analog;
+﻿namespace BridgeEngine.device.analog;
 
 public abstract class AnalogCommunication : IDevice
 {
+    private double _frequency;
     private bool _on;
     private uint _volume = 38;
-    private double _frequency;
+
+    protected double Frequency
+    {
+        get => _frequency;
+        set
+        {
+            ValidateFrequency(value);
+            _frequency = value;
+        }
+    }
 
     public bool IsEnabled()
     {
@@ -29,16 +37,6 @@ public abstract class AnalogCommunication : IDevice
         set => _volume = value > 100 ? 100 : value;
     }
 
-    protected double Frequency
-    {
-        get => _frequency;
-        set
-        {
-            ValidateFrequency(value);
-            _frequency = value;
-        }
-    }
-    
     public abstract uint Chanel { get; set; }
 
     public virtual void DisplayStatus()

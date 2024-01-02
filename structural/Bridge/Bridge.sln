@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeEngine", "BridgeEngine\BridgeEngine.csproj", "{860A5BBC-4044-4219-B5DF-9784688866EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeEngine", "BridgeEngine\BridgeEngine.csproj", "{31213AF6-E5E5-45A1-9A73-F2ACCFEF5B22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{860A5BBC-4044-4219-B5DF-9784688866EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{860A5BBC-4044-4219-B5DF-9784688866EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{860A5BBC-4044-4219-B5DF-9784688866EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{860A5BBC-4044-4219-B5DF-9784688866EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31213AF6-E5E5-45A1-9A73-F2ACCFEF5B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31213AF6-E5E5-45A1-9A73-F2ACCFEF5B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31213AF6-E5E5-45A1-9A73-F2ACCFEF5B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31213AF6-E5E5-45A1-9A73-F2ACCFEF5B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

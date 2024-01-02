@@ -1,5 +1,4 @@
-﻿using System;
-using BridgeEngine.device;
+﻿using BridgeEngine.device;
 
 namespace BridgeEngine.remote;
 
@@ -11,15 +10,14 @@ public class BasicRemote : IRemote
     {
         Device = device ?? throw new ArgumentNullException(nameof(device));
     }
+
     //TODO using graphical options from device package for the following methods.
     public void Power()
     {
         if (Device.IsEnabled())
-        { 
             Device.Disabled();
-        } else {
+        else
             Device.Enable();
-        }
     }
 
     public void VolumeDown()

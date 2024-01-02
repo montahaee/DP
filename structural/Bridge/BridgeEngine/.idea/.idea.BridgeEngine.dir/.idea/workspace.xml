@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ac015ef-1870-4e90-8c7f-0b9de50127a4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bridge.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Bridge.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BridgeEngine.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/IDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/device/IDevice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/analog/AnalogCommunication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/device/analog/AnalogCommunication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/analog/Radio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/device/analog/Radio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/analog/Television.cs" beforeDir="false" afterPath="$PROJECT_DIR$/device/analog/Television.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/digital/DigitalCommunication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/device/digital/DigitalCommunication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/BridgeEngine.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/BridgeEngine.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/BridgeEngine.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0-windows/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0-windows/App.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0-windows/BridgeEngine.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0-windows/BridgeEngine.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0-windows/BridgeEngine.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0-windows/BridgeEngine.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0-windows/BridgeEngine.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0-windows/MainWindow.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remote/BasicRemote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/remote/BasicRemote.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2aPbsaLWAwPWRp7t7Q0wlIk4Pv3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ac015ef-1870-4e90-8c7f-0b9de50127a4" name="Changes" comment="" />
+      <created>1704223368636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704223368636</updated>
+      <workItem from="1704223369727" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
