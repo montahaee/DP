@@ -1,6 +1,6 @@
 # Design Patterns Repository
 
-Welcome to the Welcom to <a href="https://en.wikipedia.org/wiki/Software_design_pattern">Design patterns</a> Design Patterns Repository! This repository is dedicated to exploring and understanding design patterns in software development.
+Welcom to <a href="https://en.wikipedia.org/wiki/Software_design_pattern">Design patterns</a> Repository! This repository is dedicated to exploring and understanding design patterns in software development.
 
 ## What are Design Patterns?
 
